@@ -17,8 +17,8 @@ void busca_binaria(int numero, int vetor[], int inicio, int fim){
     bool encontrou = false;
     int meio;
 
-    while (encontrou == false){
-        meio = inicio + (fim - inicio) / 2;
+    while (encontrou == false and inicio <= fim){
+        meio = (fim + inicio) / 2;
 
         if(numero == vetor[meio]){
             encontrou = true;
