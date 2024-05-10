@@ -1,3 +1,4 @@
+package javaa;
 import java.util.Scanner;
 
 
@@ -8,7 +9,7 @@ public class BuscaSequencial {
         for(int i = 0; i < tamanho; i++) {
             if(numero == array[i]) {
                 if (numero == array[0]) {
-                    System.out.println("O número " + numero + " está presente na posição " + (i) + " do array.");   
+                    System.out.println("O número " + numero + " está presente na posição 0 do array.");
                 }
                 else{
                     System.out.println("O número " + numero + " está presente na posição " + (i) + " do array. Onde possui o número " + array[0] + " na posição 0.");
