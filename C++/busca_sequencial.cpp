@@ -3,12 +3,12 @@
 void busca_sequencial(int valor, int vetor[], int tamanho){
     bool encontrado = false;
     if(valor == vetor[0]){
-        std::cout<< "O valor está na posição 0."<< std::endl;
+        std::cout<< "O valor " << valor << " está na posição 0."<< std::endl;
         encontrado = true;
     }
     for(int i = 1; i <= tamanho; i++){
         if(valor == vetor[i]){
-            std::cout<< "O valor está na posição " << i << ", onde o valor " << vetor[0] << " se encontra na posição 0."<< std::endl;
+            std::cout<< "O valor está na posição " << i << ". Onde o valor " << vetor[0] << " se encontra na posição 0."<< std::endl;
             encontrado = true;
         }
     }
